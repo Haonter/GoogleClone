@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&family=Roboto:ital,wght@0,400;0,900;1,400;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body class="font-roboto">
+
+    <nav class="flex justify-end space-x-4 mt-4 mr-4">
+        <button class="text-[#3C4043] borderNone" id="Gmail">Gmail
+        </button>  <!--Boton de  Gmail--> 
+        
+        <button class="text-[#3C4043] borderNone" id="Imagenes">Imágenes</button>  <!--Boton de Imagenes-->
+
+        <button class="borderNone" id="Mas">
+            <img class="rounded-full w-[35px]" src="./content/masDia.png" alt="Google Apps">
+        </button>  <!--Boton de Google Apps-->
+        
+        <button 
+        class="borderNone" id="Perfil">
+            <img class="rounded-full" src="./content/imgPerfil.jpg" alt="Perfil">
+        </button>  <!--Boton de Perfil-->
+    </nav>
+
+    <section class="alturaMaximaLogo flex content-center mt-[18px] justify-center">
+            <img class="w-[21%]" src="./content/googleLogoDia.png" alt="Logo de Google">
+    </section> <!--TITULO GOOGLE-->
+    
+    <!--Ingreso de busqueda-->
+    <section class="colorBordeDia bg-white flex flex-row mt-12 h-14 mx-[350px] busqueda"> 
+        <!--Boton Buscar-->
+        <button>
+            <img class="rounded-full h-10 mt-1 ml-3" src="./content/buscar.png" alt="Buscar">
+        </button>
+        <!--Input de texto-->
+        <input class="outline-0 text-black my-1 h-11 w-[450px] rounded-lg" type="text">
+        <!--Boton de busqueda de voz-->
+        <button class="mx-2"> 
+            <img class="rounded-full h-8" src="./content/busquedaVoz.png" alt="Buscar por voz">
+        </button>
+        <!--Boton de busqueda de Imagen-->
+        <button> 
+            <img class="rounded-full h-8" src="./content/busquedaIMG.png" alt="Buscar por Imagen">
+        </button>
+    </section>
+    <section class="flex justify-center">
+        <div>
+            <div class="botones flex space-x-8 mt-6">
+                <button class="colorBotonDia border border-transparent busqueda text-sm h-10 text-[14px] text-[#3C4043] py-2 px-4 redondo hover:border-white">
+                    Buscar con Google
+                </button>  <!--Boton de busqueda 1  🔎 -->
+                <button class="colorBotonDia border border-transparent busqueda text-sm h-10 text-[14px] text-[#3C4043] py-2 px-4 redondo hover:border-white">
+                    Me siento con suerte
+                </button>  <!--Boton de busqueda 2  🔎 -->
+            </div>
+            <div class="flex flex-row mt-8 ml-10">
+                <p class="colorLetraDia">Ofrecido por Google en: </p>
+                <p class="colorBlue2" id="Idioma">&nbspEspañol</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+<!------_____Pie de Pagina_____------->
+<footer class="bg-footerDia mt-[200px]">
+
+    <!--Parte Superior ⬆-->
+    <div class="flex justify-start space-x-[90vmax]">
+        <p class="colorLetraDia text-[16px] ml-8 pt-4">Chile</p>
+        <a href="./index.html">
+            <img class="h-8 mt-3" src="./content/DarkMode.png" alt="">
+        </a>
+    </div>
+
+    <!--Parte Inferior ⬇-->
+    <div class="flex space-x-[36vmax] mt-4 borde-topeDia">
+        <div class="flex pt-4 ml-8 flex-row space-x-4">    
+            <p class="colorLetraDia text-[16px]">Sobre Google</p> <!--Texto a la izquierda ⬅ --> 
+            <p class="colorLetraDia text-[16px]">Publicidad</p>
+            <p class="colorLetraDia text-[16px]">Negocios</p>
+            <p class="colorLetraDia text-[16px]">Como funciona la Búsqueda</p>
+        </div>
+        
+        <div class=" flex flex-row pt-4 pb-6 space-x-4">     <!--Texto a la Derecha ➡ -->
+            <p class="colorLetraDia text-[16px]">Privacidad</p>
+            <p class="colorLetraDia text-[16px]">Condiciones</p>
+            <p class="colorLetraDia text-[16px]">Preferencias</p>
+        </div>
+    </div>
+
+</footer>
+
+</html>

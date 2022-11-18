@@ -1,0 +1,36 @@
+*{font-size: small;}
+.font-roboto{font-family: 'Roboto', sans-serif;}
+.font-montalt{font-family: 'Montserrat Alternates', sans-serif;}
+.font-mont{font-family: 'Montserrat Alternates', sans-serif;}                 /*Fuentes*/
+.italic{font-style:italic;}
+.background1{background-color:#202124;}
+.bg-footer{background-color:#171717;}
+.bg-footerDia{background-color: #F2F2F2;}
+.colorBlue{color: #809DD6 ;}
+.colorBlue2{color: #466fc0;}
+.colorBorde{
+    border-color: #9AA0A6;
+    border-width: 1px;
+    border-radius: 60px;
+}
+.colorBordeDia{
+    border-color: #dde0e3;
+    border-width: 1px;
+    border-radius: 60px;
+}
+.colorLetra{color: #9AA0A6;}
+.colorLetraDia{color: #70757A;}
+.colorBoton{background-color: #303134}
+.colorBotonDia{background-color: #F8F9FA}
+.redondo{border-radius: 5px;}      
+.borde-tope{
+    border-top-width: 1px; 
+    border-color: #4B4B4B;
+}
+.borde-topeDia{
+    border-top-width: 1px; 
+    border-color: #DADCE0;
+}
+:hover.busqueda{
+    box-shadow:0 0 0.3rem rgba(0, 0, 0, 0.244)
+}
