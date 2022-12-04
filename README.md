@@ -4,11 +4,11 @@ Practica con HTML, CSS y Tailwind
 
 -IMPORTANT:
 This is a non-profit project. 
-The images in this project are property of YouTube, not mine.
+The images in this project are property of google, not mine.
 
 -IMPORTANTE:
 Esto es un proyecto sin fines de lucro.
-Las imágenes en este proyecto son propiedad de YouTube no mías.
+Las imágenes en este proyecto son propiedad de Google no mías.
 
 - 👋 Hi, I’m Diego Rodriguez / @Haonter
 - 👀 I’m learning about web development.
